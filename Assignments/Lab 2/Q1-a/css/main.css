@@ -1,0 +1,129 @@
+
+h1, h2, h3, div h1, div h2, div h3 {
+    font-family: 'Rambla', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #777;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #bbb;;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+a > p {
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+
+span p {
+    font-size: 1.3rem;
+    color: #aaaaaa;
+}
+
+div p {
+    text-align: center;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #444;
+}
+
+.parent{
+    width:100%;
+    display: -ms-flexbox;
+    display:flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.mainPart.parent {
+    flex-direction: column;
+    align-items:center;
+}
+
+#space{
+    width:10px;
+    display:inline-block;
+}
+
+.child{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    width:100%;
+    line-height:45px;
+    display:inline-block;
+    vertical-align: baseline;
+    margin: 15px;
+}
+
+.mainPart .child {
+    margin: 0 25px
+}
+
+h1, p {
+    text-align: right;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.image, .mainPart{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-left: 10%;
+}
+
+.mainPart img {
+    height: 16rem;
+    width: 100%;
+}
+
+.image img {
+    width: 100%;
+    height: 500px;
+}
+
+.sp {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+
+@media screen and (min-width: 769px) {
+
+    .mainPart.parent {
+        width:100%;
+        display: -ms-flexbox;
+        display:flex;
+        text-align:center;
+        align-items:center;
+        justify-content:center;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .mainPart .child {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div img, .image, .mainPart .child {
+        width: 100%;
+    }
+}
