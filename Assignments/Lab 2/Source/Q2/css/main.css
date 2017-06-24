@@ -17,15 +17,19 @@ div.container-1 {
     width: 100%;
     display: flex;
     top: 0;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background-color: #333;
+    margin-left: 4rem;
 }
 
 div.container-2 {
     width: 33.3333%;
     display: flex;
+    position: fixed;
+    top: 0;
     margin-top: 0;
+    height: 100%;
     margin-bottom: 2rem;
     flex-direction: column;
     justify-content: center;
@@ -58,6 +62,10 @@ div.container-2 {
     margin-top: 2rem;
 }
 
+#cont {
+    margin-left: 34%;
+}
+
 @media screen and (max-width: 769px) {
     div.container-1 {
         display: none;
@@ -67,5 +75,23 @@ div.container-2 {
         width: 100%;
         top:0;
         margin-top: 0;
+        position: static;
+        flex-direction: column;
+    }
+
+    #cont {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    #cont {
+        margin-left: 46%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #cont {
+        margin-left: 40%;
     }
 }
