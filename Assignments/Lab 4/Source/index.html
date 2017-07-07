@@ -8,6 +8,8 @@
     <style>
         #canvasTetris {
             border: 4px solid #333;
+			width: auto;
+			height: 600px;
         }
         
         body {
@@ -38,13 +40,19 @@
         <div id="loss-message"></div>
 
     </main>
-
+	
+	<audio id="sound_tag" src="music.mp3" preload="auto">
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="TetrisView.js"></script>
     <script src="TetrisModel.js"></script>
     <script src="block_model.js"></script>
     <script src="TetrisController.js"></script>
     <script src="Tetris.js"></script>
+	<script>
+		$( document ).ready(function() {
+			$('#sound_tag')[0].play();
+		});
+	</script>
 </body>
 
 </html>
