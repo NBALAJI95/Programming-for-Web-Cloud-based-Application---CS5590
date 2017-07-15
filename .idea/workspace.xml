@@ -38,8 +38,8 @@
       <file leaf-file-name="Lab 5.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignments/Lab 5/Lab 5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="100">
+              <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/Assignments/Lab 3/gitHub.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
-              <caret line="20" column="212" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="212" />
+              <caret line="20" column="212" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="212" />
               <folding>
                 <element signature="e#1713#1719#0" expanded="true" />
                 <element signature="e#1719#1725#0" expanded="true" />
@@ -281,7 +281,7 @@
       <workItem from="1500001642464" duration="3222000" />
       <workItem from="1500065017002" duration="191000" />
       <workItem from="1500092347911" duration="460000" />
-      <workItem from="1500130012521" duration="3197000" />
+      <workItem from="1500130012521" duration="3556000" />
     </task>
     <task id="LOCAL-00001" summary="weather app">
       <created>1500134722919</created>
@@ -294,10 +294,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9516000" />
+    <option name="totallyTimeSpent" value="9875000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -484,7 +485,7 @@
     <entry file="file://$PROJECT_DIR$/Assignments/Lab 3/gitHub.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
-          <caret line="20" column="212" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="212" />
+          <caret line="20" column="212" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="212" />
           <folding>
             <element signature="e#1713#1719#0" expanded="true" />
             <element signature="e#1719#1725#0" expanded="true" />
@@ -496,8 +497,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignments/Lab 5/Lab 5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="100">
+          <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
           <folding>
             <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
