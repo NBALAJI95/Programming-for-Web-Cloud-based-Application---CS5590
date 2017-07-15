@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e16c5338-5829-4ed4-bd3a-39d97323e2b5" name="Default" comment="weather app" />
+    <list default="true" id="e16c5338-5829-4ed4-bd3a-39d97323e2b5" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Lab 5/Lab 5.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -25,24 +28,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignments/Lab 2/Source/Q2/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="25">
               <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lab 5.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assignments/Lab 5/Lab 5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-              <folding>
-                <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +41,8 @@
       <file leaf-file-name="gitHub.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignments/Lab 3/gitHub.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="212" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="212" />
+            <state relative-caret-position="100">
+              <caret line="64" column="180" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="180" />
               <folding>
                 <element signature="e#1713#1719#0" expanded="true" />
                 <element signature="e#1719#1725#0" expanded="true" />
@@ -87,6 +78,7 @@
         <option value="$PROJECT_DIR$/Assignments/Lab 3/gitHub.html" />
         <option value="$PROJECT_DIR$/Assignments/Lab 5.html" />
         <option value="$PROJECT_DIR$/Assignments/Lab 5/Lab 5.html" />
+        <option value="$PROJECT_DIR$/Assignments/Lab 5/youtube.html" />
       </list>
     </option>
   </component>
@@ -105,6 +97,9 @@
     <option name="y" value="-11" />
     <option name="width" value="1942" />
     <option name="height" value="1042" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -174,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ASE-lab-exercises/assignment2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Programming-for-Web-Cloud-based-Application-master/Programming-for-Web-Cloud-based-Application-master/Source/LAB 5/youtube_app" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -281,7 +276,7 @@
       <workItem from="1500001642464" duration="3222000" />
       <workItem from="1500065017002" duration="191000" />
       <workItem from="1500092347911" duration="460000" />
-      <workItem from="1500130012521" duration="3556000" />
+      <workItem from="1500130012521" duration="5931000" />
     </task>
     <task id="LOCAL-00001" summary="weather app">
       <created>1500134722919</created>
@@ -294,7 +289,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9875000" />
+    <option name="totallyTimeSpent" value="12250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -326,7 +321,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="weather app" />
-    <option name="LAST_COMMIT_MESSAGE" value="weather app" />
+    <MESSAGE value="Assignment 5 - updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 5 - updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -366,9 +362,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -405,9 +399,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2150">
           <caret line="86" column="21" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -444,24 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2400">
           <caret line="96" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/Lab 2/Source/Q2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/Lab 2/Source/Q2/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -478,14 +452,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/Lab 2/Source/Q2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/Lab 5/Lab 5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignments/Lab 3/gitHub.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="212" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="212" />
+        <state relative-caret-position="100">
+          <caret line="64" column="180" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="180" />
           <folding>
             <element signature="e#1713#1719#0" expanded="true" />
             <element signature="e#1719#1725#0" expanded="true" />
@@ -495,13 +485,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/Lab 5/Lab 5.html">
+    <entry file="file://$PROJECT_DIR$/Assignments/Lab 5/youtube.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="5" column="212" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="212" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/Lab 2/Source/Q2/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
