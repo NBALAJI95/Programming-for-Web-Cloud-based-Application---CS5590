@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e16c5338-5829-4ed4-bd3a-39d97323e2b5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignments/Lab 5/Lab 5.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -276,7 +275,7 @@
       <workItem from="1500001642464" duration="3222000" />
       <workItem from="1500065017002" duration="191000" />
       <workItem from="1500092347911" duration="460000" />
-      <workItem from="1500130012521" duration="5931000" />
+      <workItem from="1500130012521" duration="6002000" />
     </task>
     <task id="LOCAL-00001" summary="weather app">
       <created>1500134722919</created>
@@ -285,11 +284,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500134722919</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Assignment 5 - updated">
+      <created>1500154918322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500154918322</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12250000" />
+    <option name="totallyTimeSpent" value="12321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
