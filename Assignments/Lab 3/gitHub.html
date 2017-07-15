@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" ng-app>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,73 +25,74 @@
 </head>
 
 <body ng-controller="GitHub">
-    <div class="container" id="mainPart">
-        <div class="row cont">
-            <h1> GitHub user finder </h1>
+<div class="container" id="mainPart">
+    <div class="row cont">
+        <h1> GitHub user finder </h1>
 
-            <input type="text" ng-model="username" name="userName" id="userName" placeholder="Enter Github Username">
+        <input type="text" ng-model="username" name="userName" id="userName" placeholder="Enter Github Username">
 
-            <button class="btn btn-warning" id="getDetails" ng-click="getGitInfo()"> Fetch User Details </button>
+        <button class="btn btn-warning" id="getDetails" ng-click="getGitInfo()"> Fetch User Details </button>
 
-            <h3> User Name {{user.name}} </h3>
+        <h3> User Name {{user.name}} </h3>
 
-            <p> ID {{user.login}} </p>
+        <p> ID {{user.login}} </p>
 
-            <img src="{{user.avatar_url}}">
+        <img src="{{user.avatar_url}}">
 
-            <p> Account Created @ {{user.created_at}} </p>
+        <p> Account Created @ {{user.created_at}} </p>
 
-            <p> User following {{user.following}} </p>
+        <p> User following {{user.following}} </p>
 
-            <p> User followers {{user.followers}}  </p>
+        <p> User followers {{user.followers}} </p>
 
-            <p ng-show="followers">
-                <span ng-repeat="f in followers"  bn-repeat-delimiter=",">
+        <p ng-show="followers">
+                <span ng-repeat="f in followers" bn-repeat-delimiter=",">
             <a href="{{f.html_url}}" target="_blank"> {{f.login}}&nbsp;&nbsp;</a>
 
             <a href="{{user.html_url}}" target="_blank">{{user.html_url}}</a>
                 </span>
-            </p>
+        </p>
 
-            <p ng-show="reposFound">
-                <span ng-repeat="repo in repos"  bn-repeat-delimiter=",">
+        <p ng-show="reposFound">
+                <span ng-repeat="repo in repos" bn-repeat-delimiter=",">
             <a href="{{repo.html_url}}" target="_blank"> {{repo.name}}&nbsp;&nbsp;</a>
         </span>
-            </p>
+        </p>
 
-        </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    
-    <script>
-        function GitHub($scope, $http) {
-            $scope.getGitInfo = function () {
-                $scope.userNotFound = false;
-                $scope.loaded = false;
-                $http.get("https://api.github.com/users/" + $scope.username)
-                    .success(function (data) {
-                        if (data.name == "") data.name = data.login;
-                        $scope.user = data;
-                        $scope.loaded = true;
-                    })
-                    .error(function () {
-                        $scope.userNotFound = true;
-                    });
-                $http.get("https://api.github.com/users/" + $scope.username + "/repos").success(function (data) {
-                    $scope.repos = data;
-                    $scope.reposFound = data.length > 0;
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
+<script>
+    function GitHub($scope, $http) {
+        $scope.getGitInfo = function() {
+            $scope.userNotFound = false;
+            $scope.loaded = false;
+            $http.get("https://api.github.com/users/" + $scope.username)
+                .success(function(data) {
+                    if (data.name == "") data.name = data.login;
+                    $scope.user = data;
+                    $scope.loaded = true;
+                })
+                .error(function() {
+                    $scope.userNotFound = true;
                 });
-                $http.get("https://api.github.com/users/" + $scope.username + "/followers").success(function (data) {
-                    $scope.followers = data;
-                });
-            }
+            $http.get("https://api.github.com/users/" + $scope.username + "/repos").success(function(data) {
+                $scope.repos = data;
+                $scope.reposFound = data.length > 0;
 
+            });
+            $http.get("https://api.github.com/users/" + $scope.username + "/followers").success(function(data) {
+                $scope.followers = data;
+            });
         }
-    </script>
+
+    }
+</script>
 
 </body>
+
 </html>
