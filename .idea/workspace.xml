@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e16c5338-5829-4ed4-bd3a-39d97323e2b5" name="Default" comment="">
+    <list default="true" id="e16c5338-5829-4ed4-bd3a-39d97323e2b5" name="Default" comment="weather app">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/Lab 3/gitHub.html" afterPath="$PROJECT_DIR$/Assignments/Lab 3/gitHub.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -284,15 +283,23 @@
       <workItem from="1500001642464" duration="3222000" />
       <workItem from="1500065017002" duration="191000" />
       <workItem from="1500092347911" duration="460000" />
-      <workItem from="1500130012521" duration="3077000" />
+      <workItem from="1500130012521" duration="3151000" />
     </task>
+    <task id="LOCAL-00001" summary="weather app">
+      <created>1500134722919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500134722919</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9396000" />
+    <option name="totallyTimeSpent" value="9470000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -318,6 +325,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="weather app" />
+    <option name="LAST_COMMIT_MESSAGE" value="weather app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
