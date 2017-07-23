@@ -8,3 +8,5 @@ Week 3 -> jQuery, more on JavaScript and AJAX -> https://github.com/NBALAJI95/Pr
 Week 4 -> Angular.js -> https://github.com/NBALAJI95/Programming-for-Web-Cloud-based-Application---CS5590/wiki/Web-Dev.-Assignment--4
 
 Week 5 -> Angular application -> https://github.com/NBALAJI95/Programming-for-Web-Cloud-based-Application---CS5590/wiki/Web-Dev.-Assignment-5
+
+Week 6 -> Node.js & Express.js -> https://github.com/NBALAJI95/Programming-for-Web-Cloud-based-Application---CS5590/wiki/Web-Dev.-Assignment-6
