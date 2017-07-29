@@ -62,7 +62,7 @@
             .text(function(d) { return d; });
 
         node.append("title")
-            .text(function(d) { return d.id + "\" + f(d.value); });
+            .text(function(d) { return d.id + "\n" + f(d.value); });
     });
 
 </script>
