@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e16c5338-5829-4ed4-bd3a-39d97323e2b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e16c5338-5829-4ed4-bd3a-39d97323e2b5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -275,7 +273,7 @@
       <workItem from="1500001642464" duration="3222000" />
       <workItem from="1500065017002" duration="191000" />
       <workItem from="1500092347911" duration="460000" />
-      <workItem from="1500130012521" duration="6002000" />
+      <workItem from="1500130012521" duration="6621000" />
     </task>
     <task id="LOCAL-00001" summary="weather app">
       <created>1500134722919</created>
@@ -295,7 +293,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12321000" />
+    <option name="totallyTimeSpent" value="12940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
