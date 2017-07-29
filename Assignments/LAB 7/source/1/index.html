@@ -25,7 +25,7 @@
     }, function(error, classes) {
         if (error) throw error;
 
-        var r = d3.hierarchy({children: classes})
+        var root = d3.hierarchy({children: classes})
             .sum(function(d) { return d.value; })
             .each(function(d) {
                 if (id = d.data.id) {
@@ -36,23 +36,23 @@
                 }
             });
 
-        var n = svg.selectAll(".n")
-            .data(pack(r).leaves())
+        var node = svg.selectAll(".node")
+            .data(pack(root).leaves())
             .enter().append("g")
-            .attr("class", "n")
+            .attr("class", "node")
             .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 
-        n.append("circle")
+        node.append("circle")
             .attr("id", function(d) { return d.id; })
-            .attr("r", function(d) { return d.r; })
+            .attr("root", function(d) { return d.root; })
             .style("fill", function(d) { return c(d.package); });
 
-        n.append("clipPath")
+        node.append("clipPath")
             .attr("id", function(d) { return "clip-" + d.id; })
             .append("use")
             .attr("xlink:href", function(d) { return "#" + d.id; });
 
-        n.append("text")
+        node.append("text")
             .attr("clip-path", function(d) { return "url(#clip-" + d.id + ")"; })
             .selectAll("tspan")
             .data(function(d) { return d.class.split(/(?=[A-Z][^A-Z])/g); })
@@ -61,8 +61,8 @@
             .attr("y", function(d, i, nodes) { return 13 + (i - nodes.length / 2 - 0.5) * 10; })
             .text(function(d) { return d; });
 
-        n.append("title")
-            .text(function(d) { return d.id + "\n" + f(d.value); });
+        node.append("title")
+            .text(function(d) { return d.id + "\" + f(d.value); });
     });
 
 </script>
